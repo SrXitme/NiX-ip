@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Open+Sans:wght@300&family=Poppins:wght@300&family=Roboto+Condensed:wght@700&display=swap');
+html,body{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(212, 231, 236);
+
+}
+input{
+
+    background-color: #EDF1FA;
+    border: none;
+    padding: 10px;
+    outline: none;
+    width: 95%;
+    margin-bottom: 10px;
+    
+
+}
+main{
+    width: 90%;
+    margin: auto;
+}
+button{
+    background-color:  #07285B;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin: auto;
+    width: 100px;
+    margin-bottom: 10px;
+    border-radius: 7px;
+    font-family: 'Open Sans', sans-serif;
+    margin: auto;
+}
+input::placeholder{
+    color: #AFB3BC;
+    font-family: 'Open Sans', sans-serif;
+}
+.card{
+    width: 90%;
+    border-top: 30px #07285B solid;
+    background-color: white;
+    border-radius: 10px;
+    margin: auto;
+    padding: 10px;
+    
+}
+p{
+    font-size: 1.5em;
+    color: #07285B;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0px;
+    padding: 5px;
+
+}
+h1{
+    font-size: 1.5em;
+    color: #07285B;
+    padding: 5px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+label{
+    font-family: 'Poppins', sans-serif;
+}
+.items{
+    display: flex;
+    align-items: center;
+}
+span{
+    font-size: 1.2em;
+    color: rgb(163, 21, 230);
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    padding: 5px;
+}
+.icon{
+    width: 25px;
+    height: 25px;
+}
+.in{
+    margin-left: 7px; 
+}
+#sub{
+    text-align: center;
+    font-size: 0.8em;
+    color: rgb(13, 105, 241);
+}
+dialog{
+    width: 81%;
+    border: none;
+    background-color: white;
+    border-radius: 10px;
+    margin: auto;
+    padding: 10px;
+}
